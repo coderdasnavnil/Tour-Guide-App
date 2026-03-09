@@ -1,0 +1,78 @@
+.tourPanel{
+    border:rgb(2, 178, 231) solid 1.5px;
+    width:35rem;
+    padding: 0.7rem 1.5rem;
+    /* box-shadow: 0 3rem 2rem 2.6rem rgba(0,0,0,0.4); */
+    border-radius: 11px;
+    
+}
+.tourPanel:hover{
+    box-shadow: 0 3rem 2rem 2.6rem rgba(0,0,0,0.4);
+    transition: 0.3s linear all;
+    border:none;
+}
+
+.imgContainer{
+    /* padding:5rem; */
+    /* border:solid 2px blue; */
+    width: 35rem;
+    height: 17rem;
+    border-radius: 10px;
+    /* box-shadow: 0 3rem 10rem 2.6rem rgba(0.5,0.5,00.58,0.4); */
+}
+.img{
+    width:35rem;
+    height: 17rem;
+    object-fit: fit;
+    border-radius: 10px;
+}
+
+.tourInfoHeadlines{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:7rem; /*Not Working*/
+    /* border:solid green 2px; */
+    margin-top:0.3rem;
+    height: 4rem;
+}
+.tourName, .tourPrice{
+    font-size:1.2rem;
+}
+
+
+
+.tourInfo{
+    margin-top: 2px;
+    text-align: justify;
+}   
+
+.deleteBtn{
+    margin:15px auto 0; /*Not working*/
+    background: transparent;
+    color:rgb(2, 48, 231);
+    height: 3rem;
+    width:90%;
+    font-size:1.5rem;
+    padding: 0 10px;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+    border-radius: 10px;
+    border:1.5px solid rgb(2, 48, 231);
+}
+.deleteBtn:hover{
+    background-color: red;
+    color:#fff;
+    transition: 0.4s linear ease;
+    border: none;
+    outline:none;
+}
+
+.showMoreBtn{
+    background: transparent;;
+    color:rgb(2, 48, 231);
+    border:none;
+    outline:none;
+    font-size:15px;
+    font-weight: 700;
+}
